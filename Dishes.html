@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxCooks</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            background-image: url('Dishes.Background.png');
+            font-family: 'Georgia',serif;
+             }
+
+             .Recipes h1{
+                color: gold;
+               -webkit-text-stroke: 2px rgb(155, 133, 12);
+                text-align: center;
+                font-size: 50px;
+                padding:40px;
+                color:transparent;
+
+             }
+             .grid{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                gap:30px;
+                padding: 20px;
+             }
+             .card h3{
+                color: rgb(122, 106, 12);
+                text-align: center;
+                font-size: 18px;
+                padding: 15px;
+            }
+            .card img{
+                width:500px;
+                height: 500px;
+                object-fit: center;
+            }
+            .details{
+                display: none;
+                color: white;
+                padding: 15px;
+                background-color:black;
+            }
+            .card{
+                background-color: #1a1a1a;
+                border: 1px solid rgb(128,111,18);
+                width:400px;
+            }
+            .card img {
+                 width: 100%;
+                 height: 250px;
+                 object-fit: cover;
+                 cursor: pointer;
+            }
+            .divider{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 12px;
+                margin-bottom:60px;
+                color: #d4af37;
+                font-size: 12px;
+                text-shadow: 0 0 8px rgba(212, 175, 55, 0.6);
+            }
+
+            .divider span{
+                width: 120px;
+                height: 1px;
+                background-color: #d4af37;
+                display: block;
+            }
+            .details h4 {
+                color: rgb(119, 103, 15);
+                font-family: 'Georgia', serif;
+                margin-top: 15px;
+                margin-bottom: 8px;
+            }
+            .details li {
+                color: white;
+                font-family: 'Georgia', serif;
+                margin-left: 20px;
+                margin-bottom: 5px;
+            }
+
+
+
+    </style>
+    </head>
+
+<body>
+<div class="Recipes">
+    <h1>Recipes</h1>
+    <div class="divider">
+        <span></span>
+            ◆
+        <span></span>
+    </div>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Creamy Garlic Mushroom Pasta</h3>
+            <img src="Creamy Garlic Mushroom Pasta.jpg" alt="Creamy Garlic Mushroom Pasta" width= "400" height="300">
+            <div class="details">
+
+                <h4>INGREDIENTS:</h4>
+
+                <ul>
+                <li>250g fettuccine pasta</li>
+                <li>2 tbsp butter</li>
+                <li>3 garlic cloves, minced</li>
+                <li>250g mushrooms, sliced</li>
+                <li>1 cup heavy cream</li>
+                <li>1/2 cup grated Parmesan cheese</li>
+                <li>Salt and pepper to taste</li>
+                <li>Fresh parsley for garnish</li>
+                </ul>
+
+                <h4>METHOD:</h4>
+
+                <ol>
+                <li>Cook the fettuccine pasta according to package instructions until al dente. Drain and set aside.</li>
+                <li>In a large skillet, melt the butter over medium heat. Add the minced garlic and sauté for about 1 minute until fragrant.</li>
+                <li>Add the sliced mushrooms to the skillet and cook until they are tender and browned, about 5-7 minutes.</li>
+                <li>Pour in the heavy cream and bring to a simmer. Let it cook for a few minutes until it thickens slightly.</li>
+                <li>Stir in the grated Parmesan cheese until it melts and combines with the sauce. Season with salt and pepper to taste.</li>
+                <li>Add the cooked fettuccine pasta to the skillet and toss to coat it evenly with the creamy mushroom sauce.</li>
+                <li>Garnish with fresh parsley before serving. Enjoy your delicious Creamy Garlic Mushroom Pasta!</li>
+                </ol>
+
+                <h4>SERVING SUGGESTIONS:</h4>
+
+                <ul>
+                <li>Serve with a side of garlic bread for a complete meal.</li>
+                <li>Pair with a crisp green salad for added freshness.</li>
+                <li>For an extra indulgent touch, sprinkle some additional Parmesan cheese on top before serving.</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>Garlic Butter Steak with Mashed Potatoes</h3>
+            <img src="Garlic Butter Steak with Mashed Potatoes.webp" alt="Garlic Butter Steak wiith Mashed Potatoes" width="400" height="300">
+        <div class="details">
+
+            <h4>INGREDIENTS:</h4>
+
+            <ul>
+            <li>2 ribeye steaks (about 1 inch thick)</li>
+            <li>Salt and pepper to taste</li>
+            <li>4 tbsp butter</li>
+            <li>4 garlic cloves, minced</li>
+            <li>2 sprigs of fresh thyme</li>
+            <li>4 large potatoes, peeled and cubed</li>
+            <li>1/2 cup milk</li>
+            <li>2 tbsp butter (for mashed potatoes)</li>
+            </ul>
+            
+            <h4>METHOD:</h4>
+
+            <ol>
+            <li>Season the steaks with salt and pepper.</li>
+            <li>Heat the butter in a large skillet over medium-high heat.</li>
+            <li>Add the minced garlic and thyme, and sauté for about 1 minute until fragrant.</li>
+            <li>Place the steaks in the skillet and cook for 4-5 minutes on each side for medium-rare doneness.</li>
+            <li>While the steaks are cooking, prepare the mashed potatoes by boiling the cubed potatoes until tender, then mashing them with milk and butter.</li>
+            <li>Remove the steaks from the skillet and let them rest for a few minutes before serving.</li>
+            <li>Serve the steaks with the mashed potatoes on the side.</li>
+            </ol>
+
+            <h4>SERVING SUGGESTIONS:</h4>
+
+            <ul>
+            <li>Pair with a side of roasted vegetables for a complete meal.</li>
+            <li>Drizzle additional lemon juice over the steaks before serving.</li>
+            </ul>
+
+        </div>
+        </div>
+
+        <div class="card">
+            <h3>Salmon with Lemon Butter Sauce</h3>
+            <img src="Salmon with Lemon Butter Sauce.webp" alt="Salmon with Lemon Butter Sauce" width="400" height="300">
+            <div class="details">
+
+            <h4>INGREDIENTS:</h4>
+
+            <ul>
+                <li>3 salmon fillets</li>
+                <li>Salt and pepper to taste</li>
+            <li>2 tbsp butter</li>
+            <li>2 lemons, juiced</li>
+            <li>2 tbsp all-purpose flour</li>
+            <li>1 cup chicken broth</li>
+        </ul>
+
+        <h4>METHOD:</h4>
+
+        <ol>
+            <li>Season the salmon fillets with salt and pepper.</li>
+            <li>Heat the butter in a large skillet over medium-high heat.</li>
+            <li>Add the lemon juice and flour, stirring constantly for about 1 minute.</li>
+            <li>Pour in the chicken broth and bring to a simmer. Let it cook for a few minutes until it thickens slightly.</li>
+            <li>Place the salmon fillets in the skillet and cook for 4-5 minutes on each side, or until cooked through.</li>
+            <li>Remove the salmon from the skillet and let it rest for a few minutes before serving.</li>
+            <li>Serve the salmon with the lemon butter sauce on the side.</li>
+        </ol>
+
+        <h4>SERVING SUGGESTIONS:</h4>
+
+        <ul>
+            <li>Pair with a side of steamed asparagus for a healthy option.</li>
+            <li>Garnish with fresh herbs like dill or parsley before serving.</li>
+        </ul>
+
+            </div>
+        </div>
+
+        <div class="card">
+         <h3>Creamy Tuscan Chicken</h3>
+         <img src="Creamy Tuscan Chicken.jpeg" alt="Creamy Tuscan Chicken" width="400" height="300">
+            <div class="details">
+
+            <h4>INGREDIENTS:</h4>
+
+            <ul>
+                <li>4 boneless, skinless chicken breasts</li>
+                <li>Salt and pepper to taste</li>
+                <li>2 tbsp olive oil</li>
+                <li>3 garlic cloves, minced</li>
+                <li>1 cup cherry tomatoes, halved</li>
+                <li>1 cup spinach leaves</li>
+                <li>1 cup heavy cream</li>
+                <li>1/2 cup grated Parmesan cheese</li> 
+            </ul>
+
+            <h4>METHOD:</h4>  
+
+            <ol>
+                <li>Season the chicken breasts with salt and pepper.</li>
+                <li>Heat the olive oil in a large skillet over medium-high heat.</li>
+                <li>Add the minced garlic and sauté for about 1 minute until fragrant.</li>
+                <li>Place the chicken breasts in the skillet and cook for 5-6 minutes on each side, or until cooked through. Remove the chicken from the skillet and set aside.</li>
+                <li>In the same skillet, add the cherry tomatoes and spinach leaves. Cook until the tomatoes are softened and the spinach is wilted.</li>
+                <li>Pour in the heavy cream and bring to a simmer. Let it cook for a few minutes until it thickens slightly.</li>
+                <li>Stir in the grated Parmesan cheese until it melts and combines with the sauce. Season with salt and pepper to taste.</li>
+                <li>Return the cooked chicken breasts to the skillet and coat them with the creamy Tuscan sauce.</li>
+                <li>Serve the creamy Tuscan chicken with your choice of sides, such as pasta or rice.</li>
+            </ol>
+
+            <h4>Serving Suggestions:</h4>
+
+            <ul>
+                <li>Serve with a side of garlic bread for a complete meal.</li>
+                <li>Pair with a crisp green salad for added freshness.</li>
+                <li>For an extra indulgent touch, sprinkle some additional Parmesan cheese on top before serving.</li>
+            </ul>
+
+            </div>
+            </div>
+
+        <div class="card">
+        <h3>Garlic Butter Shrimp Pasta</h3>
+        <img src="Garlic Butter Shrimp Pasta.jpeg" alt="Garlic Butter Shrimp Pasta" width="400" height="300">
+        <div class="details">
+
+        <h4>INGREDIENTS:</h4>
+
+        <ul>
+            <li>250g spaghetti pasta</li>
+            <li>2 tbsp butter</li>
+            <li>3 garlic cloves, minced</li>
+            <li>250g shrimp, peeled and deveined</li>
+            <li>1/4 cup chicken broth</li>
+            <li>1/4 cup grated Parmesan cheese</li>
+            <li>Salt and pepper to taste</li>
+            <li>Fresh parsley for garnish</li>
+        </ul>
+
+        <h4>METHOD:</h4>
+
+        <ol>
+            <li>Cook the spaghetti pasta according to package instructions until al dente. Drain and set aside.</li>
+            <li>In a large skillet, melt the butter over medium heat. Add the minced garlic and sauté for about 1 minute until fragrant.</li>
+            <li>Add the shrimp to the skillet and cook until they turn pink and are cooked through, about 3-4 minutes.</li>
+            <li>Pour in the chicken broth and bring to a simmer. Let it cook for a few minutes until it reduces slightly.</li>
+            <li>Stir in the grated Parmesan cheese until it melts and combines with the sauce. Season with salt and pepper to taste.</li>
+            <li>Add the cooked spaghetti pasta to the skillet and toss to coat it evenly with the garlic butter shrimp sauce.</li>
+            <li>Garnish with fresh parsley before serving. Enjoy your delicious Garlic Butter Shrimp Pasta!</li>
+        </ol>
+
+        <h4>Serving Suggestions:</h4>
+
+        <ul>
+            <li>Serve with a side of garlic bread for a complete meal.</li>
+            <li>Pair with a crisp green salad for added freshness.</li>
+            <li>For an extra indulgent touch, sprinkle some additional Parmesan cheese on top before serving.</li>
+        </ul>
+
+        </div>
+        </div>
+
+        <div class="card">
+            <h3>Lobster Alfredo</h3>
+            <img src="Lobster Alfredo.jpeg" alt="Lobster Alfredo" width="400" height="300">
+            <div class="details">
+
+            <h4>INGREDIENTS:</h4>
+
+            <ul>
+                <li>2 lobster tails</li>
+                <li>250g fettuccine pasta</li>
+                <li>2 tbsp butter</li>
+                <li>3 garlic cloves, minced</li>
+                <li>1 cup heavy cream</li>
+                <li>1/2 cup grated Parmesan cheese</li>
+                <li>Salt and pepper to taste</li>
+                <li>Fresh parsley for garnish</li>
+            </ul>
+
+            <h4>METHOD:</h4>
+
+            <ol>
+                <li>Cook the fettuccine pasta according to package instructions until al dente. Drain and set aside.</li>
+                <li>In a large skillet, melt the butter over medium heat. Add the minced garlic and sauté for about 1 minute until fragrant.</li>
+                <li>Add the lobster tails to the skillet and cook until they are opaque and cooked through, about 5-6 minutes. Remove the lobster from the skillet and set aside.</li>
+                <li>Pour in the heavy cream and bring to a simmer. Let it cook for a few minutes until it thickens slightly.</li>
+                <li>Stir in the grated Parmesan cheese until it melts and combines with the sauce. Season with salt and pepper to taste.</li>
+                <li>Add the cooked fettuccine pasta to the skillet and toss to coat it evenly with the creamy Alfredo sauce.</li>
+                <li>Garnish with fresh parsley before serving. Enjoy your delicious Lobster Alfredo!</li>
+            </ol>
+
+            <h4>Serving Suggestions:</h4>
+
+            <ul>
+                <li>Serve with a side of garlic bread for a complete meal.</li>
+                <li>Pair with a crisp green salad for added freshness.</li>
+                <li>For an extra indulgent touch, sprinkle some additional Parmesan cheese on top before serving.</li>
+            </ul>
+
+            </div>
+        </div>
+        <div class="card">
+            <h3>Chocolate Lava Cake</h3>
+            <img src="Chocolate Lava Cake.jpeg" alt="Chocolate Lava Cake" width="400" height="300">
+            <div class="details">
+
+            <h4>INGREDIENTS:</h4>
+
+            <ul>
+                <li>1/2 cup unsalted butter</li>
+                <li>1 cup semi-sweet chocolate chips</li>
+                <li>1 cup powdered sugar</li>
+                <li>2 large eggs</li>
+                <li>2 large egg yolks</li>
+                <li>6 tbsp all-purpose flour</li>
+                <li>Pinch of salt</li>
+            </ul>
+
+            <h4>METHOD:</h4>
+
+            <ol>
+                <li>Preheat the oven to 425°F (220°C). Grease four ramekins and place them on a baking sheet.</li>
+                <li>Melt the butter and chocolate chips together in a microwave-safe bowl, stirring every 30 seconds until smooth.</li>
+                <li>Stir in the powdered sugar until well combined.</li>
+                <li>Add the eggs and egg yolks, mixing until smooth.</li>
+                <li>Stir in the flour and salt until just combined.</li>
+                <li>Divide the batter evenly among the prepared ramekins.</li>
+                <li>Bake for 12-14 minutes, or until the edges are set but the center is still soft.</li>
+                <li>Remove from the oven and let cool for a few minutes before serving. Enjoy your delicious Chocolate Lava Cake!</li>
+            </ol>
+
+            <h4>SERVING SUGGESTIONS:</h4>
+            <ul>
+                <li>Serve with a scoop of vanilla ice cream for a classic pairing.</li>
+                <li>Drizzle with chocolate or caramel sauce for extra indulgence.</li>
+                <li>Garnish with fresh berries or a dusting of powdered sugar for added elegance.</li>
+            </ul>
+
+    </div>
+        </div>
+
+        <div class="card">
+            <h3>Strawberry Cheesecake</h3>
+            <img src="Strawberry Cheesecake.jpeg" alt="Strawberry Cheesecake" width="400" height="300">
+            <div class="details">
+
+            <h4>INGREDIENTS:</h4>
+
+            <ul>
+                <li>1 1/2 cups graham cracker crumbs</li>
+                <li>1/4 cup melted butter</li>
+                <li>2 cups cream cheese, softened</li>
+                <li>1 cup granulated sugar</li>
+                <li>3 large eggs</li>
+                <li>1 tsp vanilla extract</li>
+                <li>1 cup fresh strawberries, sliced</li>
+            </ul>
+
+            <h4>METHOD:</h4>
+
+            <ol>
+                <li>Preheat the oven to 160°C. In a bowl, combine the graham cracker crumbs and melted butter. Press the mixture into the bottom of a 9-inch springform pan to form the crust.</li>
+                <li>In a large mixing bowl, beat the cream cheese and sugar together until smooth and creamy. Add the eggs one at a time, beating well after each addition. Stir in the vanilla extract.</li>
+                <li>Pour the cream cheese mixture over the crust in the springform pan. Smooth the top with a spatula.</li>
+                <li>Bake for 50-60 minutes, or until the center is set and the edges are lightly browned.</li>
+                <li>Remove from the oven and let cool to room temperature, then refrigerate for at least 4 hours or overnight.</li>
+                <li>Before serving, top the cheesecake with sliced fresh strawberries. Enjoy your delicious Strawberry Cheesecake!</li>
+            </ol>
+
+            <h4>SERVING SUGGESTIONS:</h4>
+            
+            <ul>
+                <li>Serve with a drizzle of strawberry sauce for extra flavor.</li>
+                <li>Pair with a cup of coffee or tea for a delightful dessert experience.</li>
+                <li>Garnish with fresh mint leaves for added freshness and visual appeal.</li>
+            </ul>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Vanilla Bean Panna Cotta</h3>
+            <img src="Vanilla Bean Panna Cotta.jpeg" alt="Vanilla Bean Panna Cotta" width="400" height="300">
+            <div class="details">
+            <h4>INGREDIENTS:</h4>
+            <ul>
+                <li>2 cups heavy cream</li>
+                <li>1/2 cup granulated sugar</li>
+                <li>1 vanilla bean, split and scraped</li>
+                <li>2 1/4 tsp unflavored gelatin</li>
+                <li>3 tbsp cold water</li>
+                <li>Fresh berries for garnish</li>
+            </ul>
+            <h4>METHOD:</h4>
+            <ol>
+                <li>In a saucepan, combine the heavy cream, sugar, and the seeds from the vanilla bean. Heat over medium heat until the sugar is dissolved and the mixture is hot but not boiling.</li>
+                <li>In a small bowl, sprinkle the gelatin over the cold water and let it bloom for about 5 minutes.</li>
+                <li>Remove the saucepan from heat and stir in the bloomed gelatin until it is completely dissolved.</li>
+                <li>Pour the mixture into individual serving glasses or ramekins. Refrigerate for at least 4 hours or until set.</li>
+                <li>Before serving, garnish with fresh berries. Enjoy your delicious Vanilla Bean Panna Cotta!</li>
+            </ol>
+            <h4>SERVING SUGGESTIONS:</h4>
+            <ul>
+                <li>Serve with a drizzle of berry coulis for added flavor.</li>
+                <li>Pair with a light, fruity dessert wine for a sophisticated touch.</li>
+                <li>Garnish with fresh mint leaves for added freshness and visual appeal.</li>  
+            </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+
+<script>  
+ const images = document.querySelectorAll('.card img');
+const allDetails = document.querySelectorAll('.details');
+
+images.forEach((img) => {
+  img.addEventListener('click', () => {
+    const details = img.nextElementSibling;
+    allDetails.forEach((d) => {
+
+      if (d !== details) d.style.display = 'none';
+    });
+    if (details.style.display === 'block') {
+      details.style.display = 'none';
+    } else {
+      details.style.display = 'block';
+    }
+  });
+});
+</script>
+
+</html>
